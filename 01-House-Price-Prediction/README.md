@@ -82,6 +82,19 @@ jupyter notebook
 
 Run all notebook cells to train the model and generate predictions.
 
+## Model Evaluation
+
+The model was evaluated using an **80:20 train-test split**.
+
+| Metric                             |              Value |
+| ---------------------------------- | -----------------: |
+| **R² Score**                       |         **0.9233** |
+| **Mean Absolute Error (MAE)**      |  **16,184.21 USD** |
+| **Mean Squared Error (MSE)**       | **490,893,351.80** |
+| **Root Mean Squared Error (RMSE)** |  **22,156.11 USD** |
+
+The model achieved an **R² Score of 0.9233**, indicating a strong linear relationship between house area and price on the test data. Since this project uses a very small dataset for learning purposes, these evaluation metrics should be interpreted as a demonstration of the model evaluation process rather than a definitive measure of real-world performance.
+
 ## Learning Outcomes
 
 Through this project I learned:
