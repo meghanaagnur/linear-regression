@@ -100,6 +100,19 @@ predicted_income.csv
 ```
 
 ---
+## Model Evaluation
+
+The model was evaluated using an **80:20 train-test split**.
+
+| Metric                             |             Value |
+| ---------------------------------- | ----------------: |
+| **R² Score**                       |        **0.8752** |
+| **Mean Absolute Error (MAE)**      |  **3,240.91 USD** |
+| **Mean Squared Error (MSE)**       | **15,147,815.55** |
+| **Root Mean Squared Error (RMSE)** |  **3,892.02 USD** |
+
+The model achieved an **R² Score of 0.8752**, indicating that it explains approximately **87.52% of the variation** in Canada's per capita income based on the year. The relatively low MAE and RMSE values suggest that the model's predictions are reasonably close to the actual values, demonstrating that a simple linear regression model can effectively capture the overall upward trend in the dataset.
+
 
 ## Learning Outcomes
 
