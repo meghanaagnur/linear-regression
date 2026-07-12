@@ -106,3 +106,10 @@ Through this project I learned:
 * Exporting results to CSV
 * Basic Git and GitHub workflow
 
+## Future Improvements
+
+* Train the model on a larger and more diverse real-world housing dataset to improve prediction accuracy and generalization.
+* Include additional features such as the number of bedrooms, bathrooms, location, parking spaces, and property age to build a more comprehensive pricing model.
+* Use Cross Validation and Hyperparameter Tuning for more robust model evaluation.
+* Build an interactive web application using **Streamlit** or **Flask** that allows users to estimate house prices by entering property details.
+* Deploy the trained model on a cloud platform such as Render, Hugging Face Spaces, or Streamlit Community Cloud for public access.
