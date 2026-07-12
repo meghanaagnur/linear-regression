@@ -12,6 +12,7 @@ Predict house prices using house area.
 - Model training
 - Predictions
 - Exporting predictions to CSV
+- Model evaluation
 
 ---
 
@@ -23,6 +24,12 @@ Predict Canada's future per capita income using historical data.
 - Future predictions
 - Regression line visualization
 - Model evaluation
+
+| Project                  | Concepts                 | Status |
+| ------------------------ | ------------------------ | ------ |
+| House Price Prediction   | Simple Linear Regression | ✅      |
+| Canada Per Capita Income | Simple Linear Regression | ✅      |
+
 
 ## Tech Stack
 
