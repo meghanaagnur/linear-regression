@@ -124,12 +124,12 @@ Through this project I learned:
 * Generating predictions for unseen data
 * Exporting prediction results using Pandas
 * Organizing a machine learning project for GitHub
+* Evaluate model performance using metrics such as R² Score.
 
 ---
 
 ##  Future Improvements
 
-* Evaluate model performance using metrics such as R² Score.
 * Compare Linear Regression with Polynomial Regression for long-term forecasting.
 * Build an interactive web application using Streamlit to visualize predictions.
 * Experiment with additional economic indicators to improve prediction accuracy.
